@@ -1,6 +1,7 @@
 // HomePage.js
 import React from 'react';
 import logo from '.logo.png'; // Replace 'logo.png' with the path to youur logo file
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -17,6 +18,8 @@ function HomePage() {
         <h2>Sign In</h2>
         {/* Add your sign-in form or component here */}
 
+      {/* Registration Link */}
+      <p>First time using the app? <Link to="/register">Click here to begin registration</Link></p>
       {/* Add any additional content or components as needed */}
     </div>
 
